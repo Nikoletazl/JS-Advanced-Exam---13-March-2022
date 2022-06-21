@@ -67,7 +67,7 @@ function solve() {
                 <span>Title: ${title}</span>
             `
             lists.deleteMails.appendChild(li)
-            lists.listMails.innerHTML = ''
+            lists.listMails.innerHTML = '';
             e.target.parentElement.parentElement.remove()
         }
 
